@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from string import ascii_lowercase, ascii_uppercase, punctuation
+from string import ascii_lowercase, ascii_uppercase
 
 from .exceptions import (
     EspecialCharacterException,
