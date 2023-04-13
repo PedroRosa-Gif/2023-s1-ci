@@ -108,4 +108,5 @@ def teste_8_chars_with_no_upper_case_chars():
         # when
         validator.password_validate()
 
+     
         
