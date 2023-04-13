@@ -87,7 +87,7 @@ def test_8_chars_with_no_numbers():
 
 def test_8_chars_with_no_special_char():
     # given
-    validator = PasswordValidator(content="1/Ab1^A~")
+    validator = PasswordValidator(content="1sAb1^A~")
     with pytest.raises(Exception):  # then
         # when
         validator.password_validate()
